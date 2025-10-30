@@ -1,0 +1,150 @@
+body {
+    font-family: "Microsoft YaHei", sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  header {
+    padding: 60px 20px 20px;
+  }
+  
+  h1 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    color: #777;
+    font-size: 1rem;
+  }
+  
+  nav {
+    margin-top: 20px;
+  }
+  
+  nav a {
+    margin: 0 12px;
+    text-decoration: none;
+    color: #555;
+    transition: color 0.2s;
+  }
+  
+  nav a.active {
+    font-weight: bold;
+    color: #0078ff;
+  }
+  
+  nav a:hover {
+    color: #0078ff;
+  }
+  
+  .intro {
+    margin-top: 40px;
+    padding: 0 20px;
+  }
+  
+  .avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 2px solid #0078ff;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #0078ff;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  button:hover {
+    background-color: #005ec9;
+  }
+  
+  footer {
+    margin-top: 80px;
+    font-size: 0.9rem;
+    color: #888;
+    padding-bottom: 20px;
+  }
+  
+  /* 作品与收藏卡片布局 */
+  .gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 260px;
+    text-align: center;
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .card h3 {
+    margin: 15px 0 10px;
+  }
+  
+  .about {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  .avatar-large {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #0078ff;
+    margin-bottom: 20px;
+  }
+  
+  /* 详情页 */
+  .detail {
+    max-width: 800px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    text-align: left;
+  }
+  
+  .detail-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .back-btn {
+    display: inline-block;
+    margin-top: 20px;
+    color: #0078ff;
+    text-decoration: none;
+  }
+  
+  .back-btn:hover {
+    text-decoration: underline;
+  }
+  
