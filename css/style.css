@@ -137,13 +137,15 @@ body {
     margin-bottom: 20px;
   }
   
+  .quiz-btn,
   .back-btn {
-    display: inline-block;
-    margin-top: 20px;
+    display: block;
+    margin: 30px 0;
     color: #0078ff;
     text-decoration: none;
   }
   
+  .quiz-btn:hover,
   .back-btn:hover {
     text-decoration: underline;
   }
